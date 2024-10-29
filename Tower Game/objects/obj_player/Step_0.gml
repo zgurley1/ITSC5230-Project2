@@ -13,5 +13,13 @@ var right = keyboard_check(ord("D"));
 xspd = (right-left) * movement_speed;
 yspd = (down - up) * movement_speed;
 
-x += xspd;
-y += yspd;
+if !player_collision_x(movement_speed)
+{
+	x += xspd;
+}
+if !player_collision_y(movement_speed)
+{
+	y += yspd;
+}
+
+
