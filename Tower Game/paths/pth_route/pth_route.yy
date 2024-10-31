@@ -1,15 +1,16 @@
 {
   "$GMPath":"",
-  "%Name":"Path1",
+  "%Name":"pth_route",
   "closed":false,
   "kind":0,
-  "name":"Path1",
+  "name":"pth_route",
   "parent":{
     "name":"Paths",
     "path":"folders/Paths.yy",
   },
   "points":[
-    {"speed":100.0,"x":175.0,"y":950.0,},
+    {"speed":100.0,"x":200.0,"y":890.0,},
+    {"speed":100.0,"x":200.0,"y":950.0,},
     {"speed":100.0,"x":1200.0,"y":950.0,},
     {"speed":100.0,"x":1200.0,"y":560.0,},
     {"speed":100.0,"x":300.0,"y":560.0,},
