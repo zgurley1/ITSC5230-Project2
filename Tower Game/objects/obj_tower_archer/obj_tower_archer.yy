@@ -6,6 +6,7 @@
   "name":"obj_tower_archer",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"ammo_type","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_arrow",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Objects",
