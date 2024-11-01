@@ -5,10 +5,11 @@ with (obj_enemy)
 {
 	if (point_distance(x,y,other.x,other.y) <= other.attack_range)
 	{
-		if (other.alarm[0] == -1)
+		if (other.can_fire)
 		{
-			other.target_id = id;
-			other.alarm[0] = other.fire_rate;
+			var projectile = instance_create_layer(other.x,other.y, "Instances_Player_Enemy", other.ammo_type);
+			projectile.target_id = id;
+			other.can_fire = false;
 		}
 	}
 }
