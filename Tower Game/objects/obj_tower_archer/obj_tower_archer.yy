@@ -26,7 +26,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"ammo_type","filters":[],"listItems":[],"multiselect":false,"name":"ammo_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_arrow","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -34,6 +34,7 @@
   },
   "name":"Tower Game",
   "resources":[
+    {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_boundary","path":"objects/obj_boundary/obj_boundary.yy",},},
     {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"pth_route","path":"paths/pth_route/pth_route.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_player_collision","path":"scripts/scr_player_collision/scr_player_collision.yy",},},
+    {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_boundary","path":"sprites/spr_boundary/spr_boundary.yy",},},
     {"id":{"name":"spr_enemy_spawn","path":"sprites/spr_enemy_spawn/spr_enemy_spawn.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
