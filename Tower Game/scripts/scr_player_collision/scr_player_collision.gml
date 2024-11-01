@@ -5,10 +5,26 @@ function player_collision_x(offset){
 	{
 		return true
 	}
+	else if place_meeting(obj_player.x + (offset), obj_player.y, obj_enemy_spawn)
+	{
+		return true
+	}
+	else if place_meeting(obj_player.x + (offset), obj_player.y, obj_tower)
+	{
+		return true
+	}
 }
 
 function player_collision_y(offset){
 	if place_meeting(obj_player.x, obj_player.y + (offset), obj_boundary)
+	{
+		return true
+	}
+	else if place_meeting(obj_player.x, obj_player.y + (offset), obj_enemy_spawn)
+	{
+		return true
+	}
+	else if place_meeting(obj_player.x, obj_player.y + (offset), obj_tower)
 	{
 		return true
 	}
