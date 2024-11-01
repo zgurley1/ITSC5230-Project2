@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mana_ball",
+  "%Name":"obj_boulder",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mana_ball",
+  "name":"obj_boulder",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"damage","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"damage","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
   ],
   "parent":{
     "name":"Objects",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mana_ball",
-    "path":"sprites/spr_mana_ball/spr_mana_ball.yy",
+    "name":"spr_boulder",
+    "path":"sprites/spr_boulder/spr_boulder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
