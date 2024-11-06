@@ -6,7 +6,7 @@
   "name":"obj_tower_catapult",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"ammo_type","path":"objects/obj_tower/obj_tower.yy",},"resource":{"name":"obj_boulder","path":"objects/obj_boulder/obj_boulder.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_boulder",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"fire_rate","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"250",},
   ],

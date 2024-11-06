@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
   "%Name":"obj_boulder",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_boulder",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"damage","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
   ],
   "parent":{
     "name":"Objects",
