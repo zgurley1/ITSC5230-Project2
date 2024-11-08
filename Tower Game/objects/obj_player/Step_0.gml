@@ -34,9 +34,9 @@ switch (state) {
 		//show_debug_message("tir_x " + tir_x + " tir_y " + tir_y);
 		
 		
-		if  (point_distance(x,y,tree_in_range.x, tree_in_range.y) <= attack_range)
+		if  (point_distance(x,y,tree_in_range.x, tree_in_range.y) <= attack_range + tree_in_range.sprite_width/2)
 		{
-			show_debug_message("Tree in range, switching states");
+			//show_debug_message("Tree in range, switching states");
 			state = PLAYER_STATE.Harvesting;
 			target_tree = tree_in_range;
 			break;
@@ -75,8 +75,8 @@ switch (state) {
 		break;
 		
 	case PLAYER_STATE.Harvesting:
-		if ((target_tree) && (instance_exists(target_tree))) {
-            if (point_distance(x, y, target_tree.x, target_tree.y) <= attack_range) {
+		if ((target_tree) && (instance_exists(target_tree)) && keyboard_check(ord("E"))) {
+            if (point_distance(x, y, target_tree.x, target_tree.y) <= attack_range + target_tree.sprite_width/2) {
                 // Harvest wood (adjust values as needed)
                 obj_inventory.wood += 1;
                 
@@ -89,7 +89,7 @@ switch (state) {
             }
         } else {
             // If the tree is gone, return to idle state
-            state = PlayerState.IDLE;
+            state = PLAYER_STATE.Idle;
         }
         break;
 	

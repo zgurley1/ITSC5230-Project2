@@ -9,8 +9,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Projectiles",
+    "path":"folders/Objects/Projectiles.yy",
   },
   "parentObjectId":{
     "name":"obj_arrow",
