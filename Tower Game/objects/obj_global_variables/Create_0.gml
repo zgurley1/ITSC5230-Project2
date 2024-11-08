@@ -8,4 +8,13 @@ enum ENEMY_STATE {
 	Attack,
 	
 };
+
+enum PLAYER_STATE {
+	Idle,
+	Walking,
+	Harvesting,
+	Attacking,
+	Upgrading_Tower,
+	
+};
 	
