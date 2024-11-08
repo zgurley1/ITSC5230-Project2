@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tower_catapult",
-    "path":"sprites/spr_tower_catapult/spr_tower_catapult.yy",
+    "name":"spr_catault_tower",
+    "path":"sprites/spr_catault_tower/spr_catault_tower.yy",
   },
   "spriteMaskId":null,
   "visible":true,

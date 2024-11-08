@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
+    "name":"spr_soldier_idle",
+    "path":"sprites/spr_soldier_idle/spr_soldier_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

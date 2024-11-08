@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tower_wizzard",
-    "path":"sprites/spr_tower_wizzard/spr_tower_wizzard.yy",
+    "name":"spr_wizard_tower",
+    "path":"sprites/spr_wizard_tower/spr_wizard_tower.yy",
   },
   "spriteMaskId":null,
   "visible":true,

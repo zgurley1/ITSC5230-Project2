@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tower_archer",
-    "path":"sprites/spr_tower_archer/spr_tower_archer.yy",
+    "name":"spr_archer_tower",
+    "path":"sprites/spr_archer_tower/spr_archer_tower.yy",
   },
   "spriteMaskId":null,
   "visible":true,
