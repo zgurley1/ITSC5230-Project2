@@ -3,8 +3,10 @@
 
 // Draw a circle around the tower to display range
 draw_self();
+if (obj_cheatcode_manager.draw_hitbox)
+{
+	draw_set_color(c_red);
+	draw_set_alpha(5);
 
-draw_set_color(c_red);
-draw_set_alpha(5);
-
-draw_circle(x,y, attack_range, true);
+	draw_circle(x,y, attack_range, true);
+}
