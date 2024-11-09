@@ -33,8 +33,17 @@ switch (state) {
 		//show_debug_message("Player x " + p_x + " Player y " +p_y);
 		//show_debug_message("tir_x " + tir_x + " tir_y " + tir_y);
 		
-		
+		/*
 		if  (point_distance(x,y,tree_in_range.x, tree_in_range.y) <= attack_range + tree_in_range.sprite_width/2)
+		{
+			//show_debug_message("Tree in range, switching states");
+			state = PLAYER_STATE.Harvesting;
+			target_tree = tree_in_range;
+			break;
+		}
+		*/
+		if  ((place_meeting(x + (attack_range * xdir), y,tree_in_range)) 
+			|| (place_meeting(x, y + (attack_range * ydir),tree_in_range))) 
 		{
 			//show_debug_message("Tree in range, switching states");
 			state = PLAYER_STATE.Harvesting;
@@ -48,12 +57,20 @@ switch (state) {
 		
 		if xspd < 0 {
 			image_xscale = -1
-			dir = -1
+			xdir = -1
 		} else if xspd > 0 {
 			image_xscale = 1
-			dir = 1;
+			xdir = 1;
 		} else {
-			image_xscale = dir;
+			image_xscale = xdir;
+		}
+		
+		// store the last y direction
+		if yspd < 0 {
+			ydir = -1;
+		}
+		else if yspd > 0 {
+			ydir = 1
 		}
 	
 		// Check for collisions
@@ -75,8 +92,9 @@ switch (state) {
 		break;
 		
 	case PLAYER_STATE.Harvesting:
-		if ((target_tree) && (instance_exists(target_tree)) && keyboard_check(ord("E"))) {
-            if (point_distance(x, y, target_tree.x, target_tree.y) <= attack_range + target_tree.sprite_width/2) {
+		if ((instance_exists(target_tree)) && keyboard_check(ord("E"))) {
+            if  ((place_meeting(x + (attack_range * xdir), y,tree_in_range))
+				|| (place_meeting(x, y + (attack_range * ydir),tree_in_range))) {
                 // Harvest wood (adjust values as needed)
                 obj_inventory.wood += 1;
                 

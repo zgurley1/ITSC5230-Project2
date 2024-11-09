@@ -7,7 +7,8 @@ yspd = 0;
 health = player_health;
 state = PLAYER_STATE.Walking;
 
-dir = 1;
+xdir = 1;
+ydir = 1;
 
 target_tree = noone;
 target_stone = noone;
