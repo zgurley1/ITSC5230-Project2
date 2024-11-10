@@ -36,6 +36,8 @@
     {"$GMObjectProperty":"v1","%Name":"player_health","filters":[],"listItems":[],"multiselect":false,"name":"player_health","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"respawn_rate","filters":[],"listItems":[],"multiselect":false,"name":"respawn_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attack_range","filters":[],"listItems":[],"multiselect":false,"name":"attack_range","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"can_harvest","filters":[],"listItems":[],"multiselect":false,"name":"can_harvest","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"harvest_rate","filters":[],"listItems":[],"multiselect":false,"name":"harvest_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

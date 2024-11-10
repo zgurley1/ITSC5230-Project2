@@ -26,24 +26,8 @@ switch (state) {
 		}
 		
 		tree_in_range = instance_nearest(x,y, obj_tree);
-		tir_x = string(tree_in_range.x);
-		tir_y = string(tree_in_range.y);
-		p_x = string(x);
-		p_y = string(y);
-		//show_debug_message("Player x " + p_x + " Player y " +p_y);
-		//show_debug_message("tir_x " + tir_x + " tir_y " + tir_y);
 		
-		/*
-		if  (point_distance(x,y,tree_in_range.x, tree_in_range.y) <= attack_range + tree_in_range.sprite_width/2)
-		{
-			//show_debug_message("Tree in range, switching states");
-			state = PLAYER_STATE.Harvesting;
-			target_tree = tree_in_range;
-			break;
-		}
-		*/
-		if  ((place_meeting(x + (attack_range * xdir), y,tree_in_range)) 
-			|| (place_meeting(x, y + (attack_range * ydir),tree_in_range))) 
+		if  (harvest_wood(tree_in_range)) 
 		{
 			//show_debug_message("Tree in range, switching states");
 			state = PLAYER_STATE.Harvesting;
@@ -93,17 +77,17 @@ switch (state) {
 		
 	case PLAYER_STATE.Harvesting:
 		if ((instance_exists(target_tree)) && keyboard_check(ord("E"))) {
-            if  ((place_meeting(x + (attack_range * xdir), y,tree_in_range))
-				|| (place_meeting(x, y + (attack_range * ydir),tree_in_range))) {
-                // Harvest wood (adjust values as needed)
-                obj_inventory.wood += 1;
+            if  (harvest_wood(tree_in_range)) {
+				
+				if (can_harvest)
+				{
+					obj_inventory.wood += 1;
+					alarm_set(0, harvest_rate);
+					can_harvest = false
                 
-                // Destroy or mark the tree as harvested
-                //instance_destroy(target_tree);
-                
-                // Return to idle after harvesting
-                state = PLAYER_STATE.Idle;
-                target_tree = noone;  // Clear the target
+					state = PLAYER_STATE.Idle;
+					target_tree = noone;
+				}
             }
         } else {
             // If the tree is gone, return to idle state

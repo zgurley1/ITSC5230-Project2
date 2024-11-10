@@ -57,6 +57,7 @@
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"pth_route","path":"paths/pth_route/pth_route.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_harvest","path":"scripts/scr_harvest/scr_harvest.yy",},},
     {"id":{"name":"scr_player_collision","path":"scripts/scr_player_collision/scr_player_collision.yy",},},
     {"id":{"name":"spr_archer_tower_2","path":"sprites/spr_archer_tower_2/spr_archer_tower_2.yy",},},
     {"id":{"name":"spr_archer_tower","path":"sprites/spr_archer_tower/spr_archer_tower.yy",},},
