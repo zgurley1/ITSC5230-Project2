@@ -6,6 +6,6 @@ draw_text(32, 32, "Wood:");
 draw_text(32, 48, "Stone:");
 draw_set_colour(c_white);
 var _wood = string(obj_inventory.wood);
-draw_text_transformed(100, 32, _wood, 2, 2, 0);
+draw_text(100, 32, _wood);
 var _stone = string(obj_inventory.stone);
-draw_text_transformed(100, 48, _stone, 2, 2, 0);
+draw_text(100, 48, _stone);

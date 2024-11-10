@@ -81,7 +81,7 @@ switch (state) {
 		break;
 		
 	case PLAYER_STATE.Harvesting:
-		if (point_distance(x,y, target_tree.x, target_tree.y) < point_distance(x,y,target_stone.x,target_stone.y)) {
+		if (point_distance(x,y, tree_in_range.x, tree_in_range.y) < point_distance(x,y,stone_in_range.x,stone_in_range.y)) {
             if  (harvest_resource(target_tree) && keyboard_check(ord("E"))) {
 				
 				if (can_harvest)
