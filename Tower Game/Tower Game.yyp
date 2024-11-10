@@ -50,6 +50,7 @@
     {"id":{"name":"obj_mana_ball","path":"objects/obj_mana_ball/obj_mana_ball.yy",},},
     {"id":{"name":"obj_path","path":"objects/obj_path/obj_path.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},},
     {"id":{"name":"obj_tower_archer","path":"objects/obj_tower_archer/obj_tower_archer.yy",},},
     {"id":{"name":"obj_tower_catapult","path":"objects/obj_tower_catapult/obj_tower_catapult.yy",},},
     {"id":{"name":"obj_tower_wizard","path":"objects/obj_tower_wizard/obj_tower_wizard.yy",},},

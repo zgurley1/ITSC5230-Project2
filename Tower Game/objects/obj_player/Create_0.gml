@@ -13,3 +13,4 @@ ydir = 1;
 target_tree = noone;
 target_stone = noone;
 tree_in_range = instance_nearest(x,y, obj_tree);
+stone_in_range = instance_nearest(x,y, obj_stone);

@@ -26,12 +26,17 @@ switch (state) {
 		}
 		
 		tree_in_range = instance_nearest(x,y, obj_tree);
+		stone_in_range = instance_nearest(x,y, obj_stone);
 		
-		if  (harvest_wood(tree_in_range)) 
+		if  (harvest_resource(tree_in_range)) 
 		{
-			//show_debug_message("Tree in range, switching states");
 			state = PLAYER_STATE.Harvesting;
 			target_tree = tree_in_range;
+			break;
+		} else if (harvest_resource(stone_in_range))
+		{
+			state = PLAYER_STATE.Harvesting;
+			target_stone = stone_in_range;
 			break;
 		}
 		break;
@@ -76,8 +81,8 @@ switch (state) {
 		break;
 		
 	case PLAYER_STATE.Harvesting:
-		if ((instance_exists(target_tree)) && keyboard_check(ord("E"))) {
-            if  (harvest_wood(tree_in_range)) {
+		if (point_distance(x,y, target_tree.x, target_tree.y) < point_distance(x,y,target_stone.x,target_stone.y)) {
+            if  (harvest_resource(target_tree) && keyboard_check(ord("E"))) {
 				
 				if (can_harvest)
 				{
@@ -89,10 +94,19 @@ switch (state) {
 					target_tree = noone;
 				}
             }
-        } else {
-            // If the tree is gone, return to idle state
-            state = PLAYER_STATE.Idle;
+        } else if (harvest_resource(target_stone) && keyboard_check(ord("E"))) {
+            if (can_harvest)
+				{
+					obj_inventory.stone += 1;
+					alarm_set(0, harvest_rate);
+					can_harvest = false
+                
+					state = PLAYER_STATE.Idle;
+					target_stone = noone;
+				}
         }
+        
+		state = PLAYER_STATE.Idle;
         break;
 	
 }
