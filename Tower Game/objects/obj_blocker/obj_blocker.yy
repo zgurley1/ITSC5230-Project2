@@ -6,8 +6,8 @@
   "name":"obj_blocker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Resources",
+    "path":"folders/Objects/Resources.yy",
   },
   "parentObjectId":null,
   "persistent":false,

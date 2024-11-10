@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ground",
-  "eventList":[],
+  "%Name":"obj_enemy_player",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_ground",
+  "name":"obj_enemy_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy",
+    "path":"objects/obj_enemy/obj_enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ground",
-    "path":"sprites/spr_ground/spr_ground.yy",
+    "name":"spr_enemy_tower",
+    "path":"sprites/spr_enemy_tower/spr_enemy_tower.yy",
   },
   "spriteMaskId":null,
   "visible":true,

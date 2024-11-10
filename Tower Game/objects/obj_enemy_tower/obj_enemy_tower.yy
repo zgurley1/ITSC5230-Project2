@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stone",
-  "eventList":[],
+  "%Name":"obj_enemy_tower",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_stone",
+  "name":"obj_enemy_tower",
   "overriddenProperties":[],
   "parent":{
-    "name":"Resources",
-    "path":"folders/Objects/Resources.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_blocker",
-    "path":"objects/obj_blocker/obj_blocker.yy",
+    "name":"obj_enemy",
+    "path":"objects/obj_enemy/obj_enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_blocker",
-    "path":"sprites/spr_blocker/spr_blocker.yy",
+    "name":"spr_enemy_player",
+    "path":"sprites/spr_enemy_player/spr_enemy_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,
