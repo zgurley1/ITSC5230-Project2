@@ -3,9 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-global.num_enemy_tower--;
 
-if instance_exists(target_tower)
-{
-	target_tower.enemies_attacking--;
-}
+tower_in_range = instance_nearest(x,y,obj_tower);
+target_tower = noone;
+
