@@ -14,6 +14,7 @@ switch (state) {
 		if distance_to_object(tower_in_range) <= chase_range
 		{
 			target_tower = tower_in_range;
+			attack_range = target_tower.sprite_width/2
 			state = ENEMY_STATE.Chase;
 			break;
 		}

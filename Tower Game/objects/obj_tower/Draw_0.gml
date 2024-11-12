@@ -10,3 +10,9 @@ if (obj_cheatcode_manager.draw_hitbox)
 
 	draw_circle(x,y, attack_range, true);
 }
+
+if (obj_cheatcode_manager.draw_enemy_attacking_count)
+{
+	var num_enemies_attacking = string(enemies_attacking);
+	draw_text(x, y + (sprite_height - 50), num_enemies_attacking);
+}
