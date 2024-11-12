@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_tower",
-    "path":"sprites/spr_enemy_tower/spr_enemy_tower.yy",
+    "name":"spr_enemy_2",
+    "path":"sprites/spr_enemy_2/spr_enemy_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
