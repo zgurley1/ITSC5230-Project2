@@ -24,6 +24,8 @@
     {"name":"inst_37907805","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_762EA17C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3F6423CD","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5126D2C8","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1D4EF1CB","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -71,6 +73,8 @@
       ],"layers":[
         {"$GMRInstanceLayer":"","%Name":"Instances_Nodes","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"$GMRInstance":"v1","%Name":"inst_3F6423CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F6423CD","objectId":{"name":"obj_tower_node","path":"objects/obj_tower_node/obj_tower_node.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":480.0,},
+            {"$GMRInstance":"v1","%Name":"inst_5126D2C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5126D2C8","objectId":{"name":"obj_tower_node","path":"objects/obj_tower_node/obj_tower_node.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":480.0,},
+            {"$GMRInstance":"v1","%Name":"inst_1D4EF1CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D4EF1CB","objectId":{"name":"obj_tower_node","path":"objects/obj_tower_node/obj_tower_node.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":480.0,},
           ],"layers":[],"name":"Instances_Nodes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
       ],"name":"Instances_Tower","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_Player_Enemy","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
