@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 enemies_attacking = 0;
+
+
+
+
 with (obj_enemy)
 {
 	if (point_distance(x,y,other.x,other.y) <= other.attack_range)

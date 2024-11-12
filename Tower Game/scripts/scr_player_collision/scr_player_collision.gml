@@ -17,6 +17,14 @@ function player_collision_x(offset){
 	{
 		return true
 	}
+	else if place_meeting(obj_player.x + (offset), obj_player.y, obj_enemy)
+	{
+		return true
+	}
+	else if place_meeting(obj_player.x + (offset), obj_player.y, obj_tower_node)
+	{
+		return true
+	}
 }
 
 function player_collision_y(offset){
@@ -33,6 +41,14 @@ function player_collision_y(offset){
 		return true
 	}
 	else if place_meeting(obj_player.x, obj_player.y + (offset), obj_blocker)
+	{
+		return true
+	}
+	else if place_meeting(obj_player.x, obj_player.y + (offset), obj_enemy)
+	{
+		return true
+	}
+	else if place_meeting(obj_player.x, obj_player.y + (offset), obj_tower_node)
 	{
 		return true
 	}

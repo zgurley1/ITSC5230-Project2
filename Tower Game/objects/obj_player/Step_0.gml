@@ -64,9 +64,9 @@ switch (state) {
 	
 		// Check for collisions
 		if !player_collision_x(xspd)
-			{
-				x += xspd;
-			}
+		{
+			x += xspd;
+		}
 		if !player_collision_y(yspd)
 		{
 			y += yspd;
