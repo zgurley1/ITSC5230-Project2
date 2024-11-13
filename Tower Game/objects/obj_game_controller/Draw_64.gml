@@ -9,3 +9,9 @@ var _wood = string(obj_inventory.wood);
 draw_text(100, 32, _wood);
 var _stone = string(obj_inventory.stone);
 draw_text(100, 48, _stone);
+
+draw_set_colour(c_black);
+draw_text(32, 64, "Score:");
+var _score = score;
+draw_set_colour(c_white);
+draw_text(100, 64, _score);

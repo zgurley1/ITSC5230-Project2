@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm_set(0, 30); 
-sequence_is_playing = false
+if score > 150 && !sequence_is_playing {
+	room_goto(room_win_game)
+}
+
+

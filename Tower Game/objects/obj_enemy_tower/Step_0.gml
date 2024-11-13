@@ -8,6 +8,7 @@ switch (state) {
 	case ENEMY_STATE.Follow:
 		if (path_index == -1)
 		{
+			sprite_index = spr_enemy_3
 			path_start(pth_route, movement_speed, path_action_stop, true);
 		}
 		tower_in_range = instance_nearest(x,y,obj_tower);
@@ -21,6 +22,7 @@ switch (state) {
 		break;
 	
 	case ENEMY_STATE.Chase:
+		// sprite_index = spr_enemy_3
 		if (instance_exists(target_tower) && target_tower.enemies_attacking <= target_tower.max_enemies)
 		{
 			path_end()
@@ -45,6 +47,7 @@ switch (state) {
 		speed = 0;
 		
 		// Attack animation code here
+		sprite_index = spr_enemy_3_attack
 		
 		break;
 	

@@ -9,3 +9,5 @@ if instance_exists(target_tower)
 {
 	target_tower.enemies_attacking--;
 }
+
+score += 50
