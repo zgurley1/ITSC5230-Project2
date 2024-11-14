@@ -28,6 +28,9 @@ switch (state) {
 			path_end()
 			direction = point_direction(x,y,target_tower.x,target_tower.y)
 			speed = movement_speed
+			if (x > target_tower.x) {
+				image_xscale = -1;	
+			}
 		} else
 		{
 			state = ENEMY_STATE.Follow;

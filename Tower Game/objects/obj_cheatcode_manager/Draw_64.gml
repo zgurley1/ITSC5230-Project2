@@ -7,9 +7,11 @@ if (cheats)
 	draw_text(room_width - 450, 32, "F1:");
 	draw_text(room_width - 450, 48, "F2:");
 	draw_text(room_width - 450, 64, "F3:");
+	draw_text(room_width - 450, 80, "F4:");
 	draw_set_colour(c_white);
 	draw_text(room_width - 420, 32, "Toggle Cheats");
 	draw_text(room_width - 420, 48, "Toggle Hitboxes");
 	draw_text(room_width - 420, 64, "Display number of enemies in tower range");
+	draw_text(room_width - 420, 80, "Add 10 of each material");
 	
 }

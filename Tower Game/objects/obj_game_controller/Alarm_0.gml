@@ -1,5 +1,6 @@
 /// @description Enemy Spawner
 // You can write your code in this editor
+game_start = true;
 alarm_set(0, 30);
 
 if (global.num_enemy <= 10)

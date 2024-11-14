@@ -15,3 +15,9 @@ draw_text(32, 64, "Score:");
 var _score = score;
 draw_set_colour(c_white);
 draw_text(100, 64, _score);
+
+
+while (!game_start) {
+	draw_set_color(c_white);
+	draw_text_transformed(room_width/2,20, "You have 20 seconds to collect resources", 2, 2, 0);
+}

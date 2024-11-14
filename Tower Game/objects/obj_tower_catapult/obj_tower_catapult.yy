@@ -9,6 +9,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"fire_rate","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"250",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"propertyId":{"name":"build_cost_wood","path":"objects/obj_tower/obj_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Towers",
