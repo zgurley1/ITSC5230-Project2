@@ -5,21 +5,21 @@
 if (instance_exists(obj_player)) {
 	
 	if distance_to_object(obj_player) <= obj_player.attack_range {
-		if ((obj_inventory.wood >= obj_tower_archer.build_cost_wood) && (obj_inventory.stone >= obj_tower_archer.build_cost_stone))
+		if ((obj_inventory.wood >= obj_build_cost.archer_wood) && (obj_inventory.stone >= obj_build_cost.archer_stone))
 		{
 			afford_archer = true;
 		} else {
 			afford_archer = false;
 		}
 		
-		if ((obj_inventory.wood >= obj_tower_wizard.build_cost_wood) && (obj_inventory.stone >= obj_tower_wizard.build_cost_stone))
+		if ((obj_inventory.wood >= obj_build_cost.wizard_wood) && (obj_inventory.stone >= obj_build_cost.wizard_stone))
 		{
 			afford_wizard = true;
 		} else {
 			afford_wizard = false;
 		}
 		
-		if ((obj_inventory.wood >= obj_tower_catapult.build_cost_wood) && (obj_inventory.stone >= obj_tower_catapult.build_cost_stone))
+		if ((obj_inventory.wood >= obj_build_cost.catapult_wood) && (obj_inventory.stone >= obj_build_cost.catapult_stone))
 		{
 			afford_catapult = true;
 		} else {

@@ -16,9 +16,17 @@ var _score = score;
 draw_set_colour(c_white);
 draw_text(100, 64, _score);
 
-/*
-while (!game_start) {
+draw_set_colour(c_black);
+draw_text(32, 96, "Cost:");
+draw_set_colour(c_white);
+draw_text(32, 112, "Archer:  5 wood");
+draw_text(32, 128, "Catapult:  10 wood");
+draw_text(32, 144, "Wizard:  5 wood + 5 stone");
+
+
+
+if (!game_start) {
+	draw_set_halign(fa_center);
 	draw_set_color(c_white);
 	draw_text_transformed(room_width/2,20, "You have 20 seconds to collect resources", 2, 2, 0);
 }
-*/
