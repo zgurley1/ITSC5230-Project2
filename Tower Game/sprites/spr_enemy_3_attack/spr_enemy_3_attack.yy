@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"enemies",
-    "path":"folders/Sprites/enemies.yy",
+    "name":"enemy3 (Tower Enemy)",
+    "path":"folders/Sprites/enemies/enemy3 (Tower Enemy).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

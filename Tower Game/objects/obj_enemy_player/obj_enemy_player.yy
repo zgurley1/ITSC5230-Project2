@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_2",
-    "path":"sprites/spr_enemy_2/spr_enemy_2.yy",
+    "name":"spr_enemy_2_walk_right",
+    "path":"sprites/spr_enemy_2_walk_right/spr_enemy_2_walk_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

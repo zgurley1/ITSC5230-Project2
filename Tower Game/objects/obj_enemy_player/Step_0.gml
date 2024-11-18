@@ -8,7 +8,7 @@ switch (state) {
 	case ENEMY_STATE.Follow:
 		if (path_index == -1)
 		{
-			sprite_index = spr_enemy_2
+			sprite_index = spr_enemy_2_walk_right
 			path_start(pth_route, movement_speed, path_action_stop, true);
 		}
 		
@@ -38,7 +38,7 @@ switch (state) {
 	
 	case ENEMY_STATE.Attack:
 		path_end();
-		sprite_index = spr_enemy_2_attack
+		sprite_index = spr_enemy_2_attack_right
 		var tower_in_range = instance_nearest(x,y,obj_tower);
 		direction = point_direction(x,y,tower_in_range.x,tower_in_range.y);
 		speed = movement_speed;
