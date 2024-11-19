@@ -31,7 +31,10 @@ if (!game_start) {
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
 	draw_text_transformed(room_width/2,20, "You have " + time + " seconds to collect resources", 2, 2, 0);
-	game_start_delay--;
-	
-	
+	game_start_delay--;	
+} else {
+	var wave = string(wave_count);
+	draw_set_halign(fa_center);
+	draw_set_color(c_white);
+	draw_text_transformed(room_width/2,20, "Wave: " + wave, 2, 2, 0);
 }

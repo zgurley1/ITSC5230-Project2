@@ -36,6 +36,7 @@
     {"$GMObjectProperty":"v1","%Name":"enemy_spawn_rate","filters":[],"listItems":[],"multiselect":false,"name":"enemy_spawn_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1 * 60","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"time_between_waves","filters":[],"listItems":[],"multiselect":false,"name":"time_between_waves","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5 * 60","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"game_start_delay","filters":[],"listItems":[],"multiselect":false,"name":"game_start_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1200","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"wave_count","filters":[],"listItems":[],"multiselect":false,"name":"wave_count","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

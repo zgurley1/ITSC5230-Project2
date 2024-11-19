@@ -9,4 +9,5 @@ if (global.num_enemy > 0 && !instance_exists(obj_enemy))
 {
 	alarm_set(0,time_between_waves);
 	global.num_enemy = 0;
+	wave_count++;
 }
