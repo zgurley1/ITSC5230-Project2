@@ -31,6 +31,10 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"game_start","filters":[],"listItems":[],"multiselect":false,"name":"game_start","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"win_score","filters":[],"listItems":[],"multiselect":false,"name":"win_score","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"500","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"max_enemy_num","filters":[],"listItems":[],"multiselect":false,"name":"max_enemy_num","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"enemy_spawn_rate","filters":[],"listItems":[],"multiselect":false,"name":"enemy_spawn_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1 * 60","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"time_between_waves","filters":[],"listItems":[],"multiselect":false,"name":"time_between_waves","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5 * 60","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

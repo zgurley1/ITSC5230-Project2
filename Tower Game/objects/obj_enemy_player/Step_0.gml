@@ -49,9 +49,16 @@ switch (state) {
 	case ENEMY_STATE.Attack:
 		path_end();
 		sprite_index = spr_enemy_2_attack_right
-		var tower_in_range = instance_nearest(x,y,obj_tower);
-		direction = point_direction(x,y,tower_in_range.x,tower_in_range.y);
-		speed = movement_speed;
+		if (instance_exists(obj_tower))
+		{
+			var tower_in_range = instance_nearest(x,y,obj_tower);
+			direction = point_direction(x,y,tower_in_range.x,tower_in_range.y);
+			speed = movement_speed;
+		}
+		else
+		{
+			state = ENEMY_STATE.Follow;
+		}
 	
 	break;
 	

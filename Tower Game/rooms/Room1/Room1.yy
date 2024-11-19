@@ -24,6 +24,7 @@
     {"name":"inst_5126D2C8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1D4EF1CB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2C50590E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5230DC7D","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -71,6 +72,7 @@
             {"$GMRInstance":"v1","%Name":"inst_5126D2C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5126D2C8","objectId":{"name":"obj_tower_node","path":"objects/obj_tower_node/obj_tower_node.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":480.0,},
             {"$GMRInstance":"v1","%Name":"inst_1D4EF1CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D4EF1CB","objectId":{"name":"obj_tower_node","path":"objects/obj_tower_node/obj_tower_node.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":832.0,},
             {"$GMRInstance":"v1","%Name":"inst_2C50590E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C50590E","objectId":{"name":"obj_build_cost","path":"objects/obj_build_cost/obj_build_cost.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
+            {"$GMRInstance":"v1","%Name":"inst_5230DC7D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5230DC7D","objectId":{"name":"obj_town_hall","path":"objects/obj_town_hall/obj_town_hall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":288.0,},
           ],"layers":[],"name":"Instances_Nodes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
       ],"name":"Instances_Tower","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_Player_Enemy","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
