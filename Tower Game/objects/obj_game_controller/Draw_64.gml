@@ -26,7 +26,12 @@ draw_text(32, 144, "Wizard:  5 wood + 5 stone");
 
 
 if (!game_start) {
+	var time = string(floor(game_start_delay/60));
+	
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
-	draw_text_transformed(room_width/2,20, "You have 20 seconds to collect resources", 2, 2, 0);
+	draw_text_transformed(room_width/2,20, "You have " + time + " seconds to collect resources", 2, 2, 0);
+	game_start_delay--;
+	
+	
 }
