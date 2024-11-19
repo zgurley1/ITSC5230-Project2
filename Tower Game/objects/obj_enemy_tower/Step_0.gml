@@ -6,11 +6,23 @@ event_inherited();
 
 switch (state) {
 	case ENEMY_STATE.Follow:
+		// check if the path has ended
 		if (path_index == -1)
 		{
 			sprite_index = spr_enemy_3
 			path_start(pth_route, movement_speed, path_action_stop, true);
 		}
+		
+		// check enemy direction and update sprite direction
+		if (last_x > x) {
+			image_xscale = -1;
+		}
+		else {
+			image_xscale = 1;
+		}
+		last_x = x;
+		
+		// find the closest tower and check to see if it is within attack range
 		tower_in_range = instance_nearest(x,y,obj_tower);
 		if distance_to_object(tower_in_range) <= chase_range
 		{

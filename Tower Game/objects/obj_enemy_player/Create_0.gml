@@ -6,3 +6,4 @@ event_inherited();
 
 max_chase_range = attack_range * 1.5;
 
+last_x = x;

@@ -12,6 +12,16 @@ switch (state) {
 			path_start(pth_route, movement_speed, path_action_stop, true);
 		}
 		
+		
+		// check enemy direction and update sprite direction
+		if (last_x > x) {
+			image_xscale = -1;
+		}
+		else {
+			image_xscale = 1;
+		}
+		last_x = x;
+		
 		if (instance_exists(obj_player))
 		{
 			if distance_to_object(obj_player) <= attack_range
