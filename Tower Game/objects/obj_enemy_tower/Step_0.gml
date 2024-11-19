@@ -11,6 +11,8 @@ switch (state) {
 		{
 			sprite_index = spr_enemy_3
 			path_start(pth_route, movement_speed, path_action_stop, true);
+			path_position = current_path_position;
+			
 		}
 		
 		// check enemy direction and update sprite direction
@@ -37,6 +39,7 @@ switch (state) {
 		// sprite_index = spr_enemy_3
 		if (instance_exists(target_tower) && target_tower.enemies_attacking <= target_tower.max_enemies)
 		{
+			current_path_position = path_position;
 			path_end()
 			direction = point_direction(x,y,target_tower.x,target_tower.y)
 			speed = movement_speed
@@ -59,10 +62,18 @@ switch (state) {
 	
 	
 	case ENEMY_STATE.Attack:
+		if (!instance_exists(target_tower))
+		{
+			state = ENEMY_STATE.Follow;
+			break;
+		}
 		speed = 0;
-		
-		// Attack animation code here
 		sprite_index = spr_enemy_3_attack
+		if (can_attack)
+		{
+			alarm_set(0,10);
+			can_attack = false;
+		}
 		
 		break;
 	
