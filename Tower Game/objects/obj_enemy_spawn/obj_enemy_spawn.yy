@@ -32,5 +32,5 @@
     "path":"sprites/spr_enemy_spawn/spr_enemy_spawn.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

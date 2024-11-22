@@ -13,7 +13,7 @@ if (instance_exists(obj_player))
 	{
 		draw_set_halign(fa_left);
 		draw_rectangle(x - width_offset,y + height_offset,x + width_offset, y + height_offset + 80, true);
-		if (can_place) 
+		if (state == TOWER_NODE_STATE.Empty) 
 		{
 			
 			if (afford_archer)
@@ -56,6 +56,7 @@ if (instance_exists(obj_player))
 		{
 			draw_set_color(c_white);
 			draw_text(text_x, text_y, "1: Remove");
+			draw_text(text_x, text_y + 20, "2: Heal Tower");
 		}
 		
 	}

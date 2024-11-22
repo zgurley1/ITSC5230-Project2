@@ -87,6 +87,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_harvest","path":"scripts/scr_harvest/scr_harvest.yy",},},
     {"id":{"name":"scr_player_collision","path":"scripts/scr_player_collision/scr_player_collision.yy",},},
+    {"id":{"name":"scr_purchase_tower","path":"scripts/scr_purchase_tower/scr_purchase_tower.yy",},},
     {"id":{"name":"seq_game_lose","path":"sequences/seq_game_lose/seq_game_lose.yy",},},
     {"id":{"name":"seq_game_win","path":"sequences/seq_game_win/seq_game_win.yy",},},
     {"id":{"name":"spr_archer_tower_1_idle","path":"sprites/spr_archer_tower_1_idle/spr_archer_tower_1_idle.yy",},},

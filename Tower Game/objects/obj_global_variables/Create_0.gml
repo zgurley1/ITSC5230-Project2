@@ -20,3 +20,8 @@ enum PLAYER_STATE {
 	
 };
 	
+	
+enum TOWER_NODE_STATE {
+	Empty,
+	Placed,
+}
