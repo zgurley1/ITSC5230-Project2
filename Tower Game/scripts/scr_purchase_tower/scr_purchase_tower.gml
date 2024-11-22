@@ -23,15 +23,26 @@ function buy(tower){
 }
 
 function heal(tower) {
+	
 	if (instance_exists(tower))
 	{
-		obj_inventory.wood -= tower.build_cost_wood/2;
-		obj_inventory.stone -= tower.build_cost_stone/2;
+		show_debug_message("in heal function");
+		var cost = string(tower.heal_cost_wood);
+		show_debug_message("Cost: " + cost);
+		obj_inventory.wood -= tower.heal_cost_wood;
+		obj_inventory.stone -= tower.heal_cost_stone;
 		
 	}
+}
+
+function canHeal(tower) {
 	
-	
-	
-	
-	
+	if (instance_exists(tower) && 
+	    ((obj_inventory.wood >= tower.heal_cost_wood) && (obj_inventory.stone >= tower.heal_cost_stone))
+		&& (tower.tower_health < tower.max_health))
+	{
+		return true;
+	} else {
+		return false;
+	}
 }

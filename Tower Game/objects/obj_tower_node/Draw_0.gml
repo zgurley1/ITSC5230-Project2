@@ -56,7 +56,19 @@ if (instance_exists(obj_player))
 		{
 			draw_set_color(c_white);
 			draw_text(text_x, text_y, "1: Remove");
-			draw_text(text_x, text_y + 20, "2: Heal Tower");
+			
+			if (instance_exists(tower))
+			{
+				if (canHeal(tower)) {
+					draw_set_color(c_white);
+					draw_text(text_x, text_y + 20, "2: Heal Tower");
+				}
+				else {
+					draw_set_color(c_red);
+					draw_text(text_x, text_y + 20, "2: Heal Tower");
+				}
+			}
+			
 		}
 		
 	}

@@ -6,3 +6,6 @@ event_inherited();
 
 build_cost_wood = obj_build_cost.archer_wood;
 build_cost_stone = obj_build_cost.archer_stone;
+
+heal_cost_wood = floor(build_cost_wood/2);
+heal_cost_stone = floor(build_cost_stone/2);

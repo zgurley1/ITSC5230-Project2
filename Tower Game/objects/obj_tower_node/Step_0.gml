@@ -66,10 +66,12 @@ if (instance_exists(obj_player)) {
 					instance_destroy(tower);
 					state = TOWER_NODE_STATE.Empty;
 				}
-				else if (keyboard_check_pressed(ord("2")))
+				else if (keyboard_check_pressed(ord("2")) && canHeal(tower))
 				{
 					tower.tower_health = tower.max_health;
 					heal(tower);
+					show_debug_message("In tower finite state");
+					
 				}
 			}
 		

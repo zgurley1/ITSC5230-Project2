@@ -21,7 +21,6 @@ switch (state) {
 			// Update the player state
 			state = PLAYER_STATE.Walking;
 			obj_player.sprite_index = spr_soldier_walk;	
-			show_debug_message("Switching to walking state");
 			break;
 		}
 		
@@ -74,7 +73,6 @@ switch (state) {
 			
 		if (xspd == 0) && (yspd == 0) {
 			// Update the player state
-			show_debug_message("Switching to idle state");
 			state = PLAYER_STATE.Idle;
 			break;
 		}

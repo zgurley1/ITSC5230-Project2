@@ -24,9 +24,6 @@ with (obj_enemy_tower)
 	if (point_distance(x,y,other.x,other.y) <= other.attack_range)
 	{
 		other.enemies_attacking++;
-		num = string(other.enemies_attacking);
-		tower_name = string(other.ammo_type);
-		show_debug_message("Tower Name: " + tower_name + "\tEnemies Attacking: " + num);
 	}
 }
 

@@ -12,8 +12,8 @@
   "name":"obj_game_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tower Game",
+    "path":"Tower Game.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
