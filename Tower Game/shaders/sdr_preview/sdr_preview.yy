@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sdr_preview",
+  "name":"sdr_preview",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
