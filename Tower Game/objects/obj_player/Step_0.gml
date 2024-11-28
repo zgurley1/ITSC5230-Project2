@@ -13,6 +13,12 @@ var right = keyboard_check(ord("D"));
 xspd = (right-left) * movement_speed;
 yspd = (down - up) * movement_speed;
 
+if mouse_check_button_pressed(mb_left) {
+	
+	var seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack)
+	layer_sequence_play(seq)
+}
+
 switch (state) {
 	case PLAYER_STATE.Idle:
 		obj_player.sprite_index = spr_soldier_idle;	
