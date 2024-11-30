@@ -16,7 +16,14 @@ yspd = (down - up) * movement_speed;
 if mouse_check_button_pressed(mb_left) {
 	
 	var seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack)
+	//obj_player.state = PLAYER_STATE.Attacking
 	layer_sequence_play(seq)
+	// Need some sort of alarm to set player state back to idle after .5s or the seq finishes
+	//if layer_sequence_is_finished(seq) {
+		
+		//obj_player.state = PLAYER_STATE.Idle
+	//}
+	
 }
 
 switch (state) {

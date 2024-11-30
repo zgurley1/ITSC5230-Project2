@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_archer_tower_4_idle",
+    "path":"sprites/spr_archer_tower_4_idle/spr_archer_tower_4_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
