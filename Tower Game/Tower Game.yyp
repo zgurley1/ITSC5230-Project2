@@ -100,7 +100,6 @@
     {"id":{"name":"snd_player_running","path":"sounds/snd_player_running/snd_player_running.yy",},},
     {"id":{"name":"snd_player_sword_swing","path":"sounds/snd_player_sword_swing/snd_player_sword_swing.yy",},},
     {"id":{"name":"snd_tower_construction","path":"sounds/snd_tower_construction/snd_tower_construction.yy",},},
-    {"id":{"name":"snd_wizard_tower_shoot","path":"sounds/snd_wizard_tower_shoot/snd_wizard_tower_shoot.yy",},},
     {"id":{"name":"spr_archer_tower_1_idle","path":"sprites/spr_archer_tower_1_idle/spr_archer_tower_1_idle.yy",},},
     {"id":{"name":"spr_archer_tower_2_idle","path":"sprites/spr_archer_tower_2_idle/spr_archer_tower_2_idle.yy",},},
     {"id":{"name":"spr_archer_tower_2","path":"sprites/spr_archer_tower_2/spr_archer_tower_2.yy",},},
