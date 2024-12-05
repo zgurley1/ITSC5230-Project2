@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_town_hall",
-    "path":"sprites/spr_town_hall/spr_town_hall.yy",
+    "name":"spr_home_base",
+    "path":"sprites/spr_home_base/spr_home_base.yy",
   },
   "spriteMaskId":null,
   "visible":true,

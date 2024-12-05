@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_spawn",
-    "path":"sprites/spr_enemy_spawn/spr_enemy_spawn.yy",
+    "name":"spr_castle_max",
+    "path":"sprites/spr_castle_max/spr_castle_max.yy",
   },
   "spriteMaskId":null,
   "visible":true,
