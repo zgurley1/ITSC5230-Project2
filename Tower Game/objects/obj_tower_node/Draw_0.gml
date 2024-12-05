@@ -67,6 +67,15 @@ if (instance_exists(obj_player))
 					draw_set_color(c_red);
 					draw_text(text_x, text_y + 20, "2: Heal Tower");
 				}
+				
+				if (canUpgrade(tower)) {
+					draw_set_color(c_white);
+					draw_text(text_x, text_y + 40, "3: Upgrade Tower");
+				}
+				else {
+					draw_set_color(c_red);
+					draw_text(text_x, text_y + 40, "3: Upgrade Tower");
+				}
 			}
 			
 		}

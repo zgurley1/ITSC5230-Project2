@@ -17,5 +17,6 @@ if (cheats)
 	draw_text(room_width - 420, 80, "Add 10 of each material");
 	draw_text(room_width - 420, 96, "Create Tower Node (E)");
 	draw_text(room_width - 420, 112, "Spawn Tower Enemy");
+	draw_text(room_width - 420, 128, "Spawn Player Enemy");
 	
 }

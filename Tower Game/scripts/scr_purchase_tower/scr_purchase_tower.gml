@@ -46,3 +46,29 @@ function canHeal(tower) {
 		return false;
 	}
 }
+
+function canUpgrade(tower) {
+	
+	if (instance_exists(tower) && 
+	    ((obj_inventory.wood >= tower.upgrade_cost_wood) && (obj_inventory.stone >= tower.upgrade_cost_stone)) && 
+		(tower.upgrade_num < 3))
+	{
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+function upgradeTower(tower) {
+	if (instance_exists(tower))
+	{
+		obj_inventory.wood -= tower.upgrade_cost_wood;
+		obj_inventory.stone -= tower.upgrade_cost_stone;
+		
+		tower.max_health += 10;
+		tower.fire_rate -= 5;
+		
+		//tower.ammo_type.damage += 10;
+	}
+}

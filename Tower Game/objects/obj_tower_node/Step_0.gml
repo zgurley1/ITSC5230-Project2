@@ -70,8 +70,9 @@ if (instance_exists(obj_player)) {
 				{
 					tower.tower_health = tower.max_health;
 					heal(tower);
-					show_debug_message("In tower finite state");
 					
+				} else if (keyboard_check_pressed(ord("3")) && canUpgrade(tower)) {
+					upgradeTower(tower);
 				}
 			}
 		

@@ -4,12 +4,14 @@
 // Inherit the parent event
 event_inherited();
 
+
 switch (state) {
 	case ENEMY_STATE.Follow:
 		if (path_index == -1)
 		{
 			sprite_index = spr_enemy_2_walk_right
 			path_start(pth_route, movement_speed, path_action_stop, true);
+			path_position = current_path_position;
 		}
 		
 		
@@ -22,12 +24,14 @@ switch (state) {
 		}
 		last_x = x;
 		
-		if (instance_exists(obj_player))
+		if (instance_exists(obj_player) && (distance_to_object(obj_player) <= attack_range))
 		{
-			if distance_to_object(obj_player) <= attack_range
-				{
-					state = ENEMY_STATE.Chase;
-				}
+			current_path_position = path_position;
+			pathx = x;
+			pathy = y;
+			path_end();
+			state = ENEMY_STATE.Chase;
+		
 		} else {
 			state = ENEMY_STATE.Follow;
 		}
@@ -37,14 +41,33 @@ switch (state) {
 		
 		if ((!instance_exists(obj_player)) || (distance_to_object(obj_player) >= max_chase_range))
 		{
-			state = ENEMY_STATE.Attack;
+			state = ENEMY_STATE.Return_To_Path;
 			break;
 		}
 		
-		path_end()
 		direction = point_direction(x,y,obj_player.x,obj_player.y);
 		speed = movement_speed * 0.75;
 	break;
+	
+	
+	
+	case ENEMY_STATE.Return_To_Path:
+		if (distance_to_point(pathx,pathy) <= 10) 
+		{
+			state = ENEMY_STATE.Follow;
+			break;
+			
+			
+		}
+		else
+		{
+			direction = point_direction(x,y,pathx,pathy);
+			speed = movement_speed;
+		}
+	
+	break;
+	
+	
 	
 	case ENEMY_STATE.Attack:
 		path_end();

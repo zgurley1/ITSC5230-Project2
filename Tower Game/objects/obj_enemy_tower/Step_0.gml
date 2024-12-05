@@ -40,15 +40,17 @@ switch (state) {
 		if (instance_exists(target_tower) && target_tower.enemies_attacking <= target_tower.max_enemies)
 		{
 			current_path_position = path_position;
-			path_end()
-			direction = point_direction(x,y,target_tower.x,target_tower.y)
-			speed = movement_speed
+			pathx = x;
+			pathy = y;
+			path_end();
+			direction = point_direction(x,y,target_tower.x,target_tower.y);
+			speed = movement_speed;
 			if (x > target_tower.x) {
 				image_xscale = -1;	
 			}
 		} else
 		{
-			state = ENEMY_STATE.Follow;
+			state = ENEMY_STATE.Return_To_Path;
 			break;
 		}
 		
@@ -59,12 +61,24 @@ switch (state) {
 		}
 	break;
 	
+	case ENEMY_STATE.Return_To_Path:
+		if (distance_to_point(pathx,pathy) <= 10) 
+		{
+			state = ENEMY_STATE.Follow;
+			break;
+		}
+		else
+		{
+			direction = point_direction(x,y,pathx,pathy);
+			speed = movement_speed;
+		}
 	
+	break;
 	
 	case ENEMY_STATE.Attack:
 		if (!instance_exists(target_tower))
 		{
-			state = ENEMY_STATE.Follow;
+			state = ENEMY_STATE.Return_To_Path;
 			break;
 		}
 		speed = 0;
