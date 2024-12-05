@@ -13,18 +13,7 @@ var right = keyboard_check(ord("D"));
 xspd = (right-left) * movement_speed;
 yspd = (down - up) * movement_speed;
 
-if mouse_check_button_pressed(mb_left) {
-	
-	var seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack)
-	//obj_player.state = PLAYER_STATE.Attacking
-	layer_sequence_play(seq)
-	// Need some sort of alarm to set player state back to idle after .5s or the seq finishes
-	//if layer_sequence_is_finished(seq) {
-		
-		//obj_player.state = PLAYER_STATE.Idle
-	//}
-	
-}
+
 
 switch (state) {
 	case PLAYER_STATE.Idle:
@@ -51,6 +40,28 @@ switch (state) {
 			target_stone = stone_in_range;
 			break;
 		}
+		
+		if mouse_check_button_pressed(mb_left) {
+			state = PLAYER_STATE.Attacking
+			break;
+		}
+		break;
+		
+	case PLAYER_STATE.Attacking:
+	
+		if last_direction == "left" {
+			var seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack_left)
+		} else {
+			var seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack)
+		}
+		
+		layer_sequence_play(seq);	
+		
+		xspd = 0;
+        yspd = 0;
+
+        alarm_set(1, 30)
+		state=PLAYER_STATE.Idle
 		break;
 	
 	case PLAYER_STATE.Walking:
@@ -59,9 +70,11 @@ switch (state) {
 		if xspd < 0 {
 			image_xscale = -1
 			xdir = -1
+			last_direction = "left"
 		} else if xspd > 0 {
 			image_xscale = 1
 			xdir = 1;
+			last_direction = "right"
 		} else {
 			image_xscale = xdir;
 		}
