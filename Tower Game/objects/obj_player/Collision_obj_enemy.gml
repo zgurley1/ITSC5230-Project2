@@ -6,4 +6,6 @@
 health -= other.damage;
 damaged_now = true
 
+alarm_set(2, heal_buffer);
+
 instance_destroy(other);

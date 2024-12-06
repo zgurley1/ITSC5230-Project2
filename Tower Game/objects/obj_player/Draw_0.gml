@@ -16,4 +16,12 @@ if(damaged_now){
 	shader_reset();
 }
 
+
+
 damaged_now = false;
+
+
+if (player_health != health)
+{
+	draw_healthbar(x, y + (sprite_height/2) + 5, x+100,y + (sprite_height/2) + 15,health,c_black,c_red,c_lime,0,false,true);	
+}
