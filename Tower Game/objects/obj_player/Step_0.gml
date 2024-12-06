@@ -110,7 +110,7 @@ switch (state) {
 				
 				if (can_harvest)
 				{
-					obj_inventory.wood += 1;
+					obj_inventory.wood += target_tree.harvest_amount;
 					alarm_set(0, harvest_rate);
 					can_harvest = false
                 
@@ -121,7 +121,7 @@ switch (state) {
         } else if (harvest_resource(target_stone) && keyboard_check(ord("E"))) {
             if (can_harvest)
 				{
-					obj_inventory.stone += 1;
+					obj_inventory.stone += target_stone.harvest_amount;
 					alarm_set(0, harvest_rate);
 					can_harvest = false
                 

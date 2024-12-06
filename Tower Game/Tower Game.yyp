@@ -76,6 +76,7 @@
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"obj_mana_ball","path":"objects/obj_mana_ball/obj_mana_ball.yy",},},
     {"id":{"name":"obj_path","path":"objects/obj_path/obj_path.yy",},},
+    {"id":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_shader_controller","path":"objects/obj_shader_controller/obj_shader_controller.yy",},},
     {"id":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},},
