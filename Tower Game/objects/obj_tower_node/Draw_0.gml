@@ -12,10 +12,10 @@ if (instance_exists(obj_player))
 	if (distance_to_object(obj_player) <= obj_player.attack_range)
 	{
 		draw_set_halign(fa_left);
-		draw_rectangle(x - width_offset,y + height_offset,x + width_offset, y + height_offset + 80, true);
+		
 		if (state == TOWER_NODE_STATE.Empty) 
 		{
-			
+			draw_rectangle(x - width_offset,y + height_offset,x + width_offset, y + height_offset + 80, true);
 			if (afford_archer)
 			{
 				draw_set_color(c_white);
@@ -54,6 +54,7 @@ if (instance_exists(obj_player))
 			
 		} else
 		{
+			draw_rectangle(x - width_offset,y + height_offset,x + width_offset + 50, y + height_offset + 80, true);
 			draw_set_color(c_white);
 			draw_text(text_x, text_y, "1: Remove");
 			

@@ -13,7 +13,7 @@ if (instance_exists(obj_player))
 	if (distance_to_object(obj_player) <= obj_player.attack_range)
 	{
 		draw_set_halign(fa_left);
-		draw_rectangle(x - width_offset,y + height_offset,x + width_offset, y + height_offset + 80, true);
+		draw_rectangle(x - width_offset,y + height_offset,x + width_offset - 20, y + height_offset + 80, true);
 		
 		if (canUpgrade(obj_town_hall))
 		{
