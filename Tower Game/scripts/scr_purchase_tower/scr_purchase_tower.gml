@@ -51,7 +51,7 @@ function canUpgrade(tower) {
 	
 	if (instance_exists(tower) && 
 	    ((obj_inventory.wood >= tower.upgrade_cost_wood) && (obj_inventory.stone >= tower.upgrade_cost_stone)) && 
-		(tower.upgrade_num < 3))
+		(tower.upgrade_num < tower.max_upgrade))
 	{
 		return true;
 	} else {

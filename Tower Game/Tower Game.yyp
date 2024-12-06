@@ -60,6 +60,7 @@
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_blocker","path":"objects/obj_blocker/obj_blocker.yy",},},
     {"id":{"name":"obj_boulder","path":"objects/obj_boulder/obj_boulder.yy",},},
+    {"id":{"name":"obj_boundary_zone","path":"objects/obj_boundary_zone/obj_boundary_zone.yy",},},
     {"id":{"name":"obj_boundary","path":"objects/obj_boundary/obj_boundary.yy",},},
     {"id":{"name":"obj_build_cost","path":"objects/obj_build_cost/obj_build_cost.yy",},},
     {"id":{"name":"obj_cheatcode_manager","path":"objects/obj_cheatcode_manager/obj_cheatcode_manager.yy",},},

@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy();
 
-other.tower_health -= damage;
+tower_health = max_health;

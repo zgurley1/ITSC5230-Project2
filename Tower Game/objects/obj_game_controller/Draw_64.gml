@@ -1,5 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+draw_set_color(c_orange)
+draw_set_alpha(.75)
+draw_rectangle(0,0,room_width,110,false)
+//draw_rectangle(0,0,50,room_height,false)
+//draw_rectangle(room_width-50,0,room_width,room_height,false)
+
+draw_set_alpha(1);
+
 draw_set_halign(fa_left);
 draw_set_colour(c_black);
 draw_text(32, 32, "Wood:");
@@ -37,4 +45,6 @@ if (!game_start) {
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
 	draw_text_transformed(room_width/2,20, "Wave: " + wave, 2, 2, 0);
+	
+	draw_healthbar(room_width/2 - 200, 80,room_width/2 + 200, 100,obj_town_hall.tower_health,c_black,c_red,c_lime,0,false,true);
 }
