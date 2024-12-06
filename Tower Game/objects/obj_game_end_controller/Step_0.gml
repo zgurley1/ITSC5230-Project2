@@ -10,8 +10,20 @@ if room == room_end_game || room == room_win_game {
 	
 		if layer_sequence_is_finished(eid){
 			
-			room_goto(0);
+			game_end()
 		}
 	
+	} else if keyboard_check(ord("R")) {
+		
+		var arr = layer_get_all_elements("Assets_1")
+	
+		var eid = arr[0]
+	
+		if layer_sequence_is_finished(eid){
+			
+			room_goto(0)
+		}
+		
+		
 	}
 }
