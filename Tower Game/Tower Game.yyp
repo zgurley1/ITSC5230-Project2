@@ -80,6 +80,7 @@
     {"id":{"name":"obj_player_spawn","path":"objects/obj_player_spawn/obj_player_spawn.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_shader_controller","path":"objects/obj_shader_controller/obj_shader_controller.yy",},},
+    {"id":{"name":"obj_sound_controller","path":"objects/obj_sound_controller/obj_sound_controller.yy",},},
     {"id":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},},
     {"id":{"name":"obj_title_screen_controller","path":"objects/obj_title_screen_controller/obj_title_screen_controller.yy",},},
     {"id":{"name":"obj_tower_archer","path":"objects/obj_tower_archer/obj_tower_archer.yy",},},

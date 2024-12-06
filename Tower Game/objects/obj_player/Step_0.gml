@@ -17,6 +17,9 @@ yspd = (down - up) * movement_speed;
 
 switch (state) {
 	case PLAYER_STATE.Idle:
+		if audio_is_playing(snd_player_running) {
+			audio_stop_sound(snd_player_running)
+		}
 		obj_player.sprite_index = spr_soldier_idle;	
 		
 		if ((xspd != 0) || (yspd != 0)) {
@@ -48,6 +51,7 @@ switch (state) {
 		break;
 		
 	case PLAYER_STATE.Attacking:
+		audio_play_sound(snd_player_sword_swing, 0, false)
 		if last_direction == "left" {
 			seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack_left)
 		} else {
@@ -65,6 +69,10 @@ switch (state) {
 	
 	case PLAYER_STATE.Walking:
 		// Update the sprite direction
+		if !audio_is_playing(snd_player_running) {
+			audio_play_sound(snd_player_running, 0, false)		
+		}
+		
 		
 		if xspd < 0 {
 			image_xscale = -1

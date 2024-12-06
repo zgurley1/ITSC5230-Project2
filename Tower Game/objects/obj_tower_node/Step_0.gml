@@ -35,18 +35,21 @@ if (instance_exists(obj_player)) {
 				{
 					tower = instance_create_layer(x,y - 40, "Instances_Tower", obj_tower_archer);
 					buy("archer");
+					audio_play_sound(snd_tower_construction, 0, false)
 					state = TOWER_NODE_STATE.Placed;
 				}
 				else if (keyboard_check_pressed(ord("2")) && afford_wizard)
 				{
 					tower = instance_create_layer(x,y - 40, "Instances_Tower", obj_tower_wizard);
 					buy("wizard");
+					audio_play_sound(snd_tower_construction, 0, false)
 					state = TOWER_NODE_STATE.Placed;
 				}
 				else if (keyboard_check_pressed(ord("3")) && afford_catapult)
 				{
 					tower = instance_create_layer(x,y - 40, "Instances_Tower", obj_tower_catapult);
 					buy("catapult");
+					audio_play_sound(snd_tower_construction, 0, false)
 					state = TOWER_NODE_STATE.Placed;
 				}
 			}
