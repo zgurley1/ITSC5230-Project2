@@ -14,7 +14,7 @@ if (instance_exists(obj_player))
 			obj_inventory.stone -= upgrade_cost_stone;
 		
 			max_health += 10;
-			tower_health  += (max_health - tower_health)/2;
+			tower_health  = max_health;
 			upgrade_num++;
 		
 		
@@ -32,8 +32,8 @@ if (instance_exists(obj_player))
 		}
 		else if (keyboard_check_pressed(ord("2")) && canHeal(self))
 		{
-			tower.tower_health = tower.max_health;
-			heal(tower);			
+			tower_health = max_health;
+			heal(self);			
 		} 
 	}
 }
