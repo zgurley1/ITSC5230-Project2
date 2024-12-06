@@ -211,6 +211,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_producer","path":"sprites/spr_producer/spr_producer.yy",},},
     {"id":{"name":"spr_programmer","path":"sprites/spr_programmer/spr_programmer.yy",},},
+    {"id":{"name":"spr_r_to_restart","path":"sprites/spr_r_to_restart/spr_r_to_restart.yy",},},
     {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},
     {"id":{"name":"spr_sheep","path":"sprites/spr_sheep/spr_sheep.yy",},},
