@@ -15,6 +15,9 @@ target_stone = noone;
 tree_in_range = instance_nearest(x,y, obj_tree);
 stone_in_range = instance_nearest(x,y, obj_stone);
 
+can_attack = true;
+seq = noone;
+
 last_direction = "right"
 
 damaged_now = false

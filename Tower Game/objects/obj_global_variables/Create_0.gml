@@ -18,6 +18,7 @@ enum PLAYER_STATE {
 	Harvesting,
 	Attacking,
 	Upgrading_Tower,
+	Wait,
 	
 };
 	

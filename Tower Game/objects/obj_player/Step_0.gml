@@ -48,20 +48,19 @@ switch (state) {
 		break;
 		
 	case PLAYER_STATE.Attacking:
-	
 		if last_direction == "left" {
-			var seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack_left)
+			seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack_left)
 		} else {
-			var seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack)
+			seq = layer_sequence_create("overlay_sequences_layer", obj_player.x, obj_player.y, seq_player_attack)
 		}
 		
 		layer_sequence_play(seq);	
 		
 		xspd = 0;
-        yspd = 0;
-
-        alarm_set(1, 30)
-		state=PLAYER_STATE.Idle
+	    yspd = 0;
+		can_attack = false;
+		state = PLAYER_STATE.Wait;
+		
 		break;
 	
 	case PLAYER_STATE.Walking:
@@ -132,5 +131,13 @@ switch (state) {
         
 		state = PLAYER_STATE.Idle;
         break;
+		
+		case PLAYER_STATE.Wait:
+			if (!can_attack)
+			{
+				alarm_set(1,30);
+				can_attack = true;
+			}
+		break;
 	
 }
