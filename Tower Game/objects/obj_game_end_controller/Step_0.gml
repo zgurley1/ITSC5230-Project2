@@ -10,7 +10,7 @@ if room == room_end_game || room == room_win_game {
 	
 		if layer_sequence_is_finished(eid){
 			
-			game_end()
+			room_goto(0);
 		}
 	
 	}

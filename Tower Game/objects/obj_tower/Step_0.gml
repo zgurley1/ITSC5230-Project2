@@ -27,3 +27,13 @@ with (obj_enemy_tower)
 	}
 }
 
+if (instance_exists(obj_enemy_spawn))
+{
+	if (distance_to_object(obj_enemy_spawn) <= attack_range && can_fire)
+	{
+		var projectile = instance_create_layer(x,y, "Instances_Player_Enemy", ammo_type);
+		projectile.target_id = obj_enemy_spawn.id;
+		can_fire = false;
+	}
+	
+}

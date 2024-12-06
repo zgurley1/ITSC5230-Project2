@@ -4,6 +4,6 @@
 
 if (cheats)
 {
-	obj_inventory.wood += 10;
-	obj_inventory.stone += 10;
+	obj_inventory.wood += 100;
+	obj_inventory.stone += 100;
 }
