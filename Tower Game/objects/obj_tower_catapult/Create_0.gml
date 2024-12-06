@@ -12,4 +12,4 @@ heal_cost_wood = floor(build_cost_wood/2);
 heal_cost_stone = floor(build_cost_stone/2);
 
 var catapult_offset = 25; // The vertical offset between the tower and the catapult
-instance_create_layer(x, y - catapult_offset, "Instances_on_top", obj_catapult);
+catapult = instance_create_layer(x, y - catapult_offset, "Instances_on_top", obj_catapult);
