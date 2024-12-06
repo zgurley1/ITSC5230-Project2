@@ -106,6 +106,7 @@
     {"id":{"name":"sdr_color_overlay","path":"shaders/sdr_color_overlay/sdr_color_overlay.yy",},},
     {"id":{"name":"sdr_preview","path":"shaders/sdr_preview/sdr_preview.yy",},},
     {"id":{"name":"snd_archer_tower_shoot","path":"sounds/snd_archer_tower_shoot/snd_archer_tower_shoot.yy",},},
+    {"id":{"name":"snd_background_music","path":"sounds/snd_background_music/snd_background_music.yy",},},
     {"id":{"name":"snd_catapult_tower_shoot","path":"sounds/snd_catapult_tower_shoot/snd_catapult_tower_shoot.yy",},},
     {"id":{"name":"snd_player_running","path":"sounds/snd_player_running/snd_player_running.yy",},},
     {"id":{"name":"snd_player_sword_swing","path":"sounds/snd_player_sword_swing/snd_player_sword_swing.yy",},},
