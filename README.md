@@ -1,15 +1,34 @@
-Tower Knights: Countersiege ||
-Developed by Carson Jones, Zach Gurley, Andrew Soriano, and Tyler Bunn
-Instructions
----------------
-Use WASD to move. Press 1/2/3 near an empty tower slot to place an archer/wizard/catapult tower.
-Press E to harvest resources
-Towers will attack enemies that traverse the path winding through the level. Currently, the player's towers must defeat a certain number of
-enemies to win the game. Making contact with enemies lowers the player's health and losing enough health will make the player unable to place
-or modify towers for the remainder of the round.
-Cheat Codes
---------------
-Press F1: Enables cheats and displays list of cheats. Press again to disable cheats and hide the list.
-Press F2: Makes tower attack ranges and enemy aggro ranges visible to the player. Press again to hide the ranges.
-Press F3: Displays the number of enemies currently within a tower's range. Press again to hide the displays.
-Press F4: Add 10 of each resource to the players inventory
+Tower Knights: Countersiege
+
+## Quadforge Games
+
+Designer: Andrew Soriano
+Programmer: Carson Jones
+Programmer: Zachary Gurley
+Producer: Tyler Bunn
+
+# Instructions
+
+## Basic Controls
+
+Use WASD to move. Click the left mouse button to swing your sword. Press E while close to wood or stone to harvest materials.
+Press 1/2/3 while near an open Node to build a Tower. Press 1/2/3 while near a Tower to upgrade it. Press Escape to exit the game.
+
+## Core Mechanics
+
+Strategically build Towers to defeat waves of enemies.
+
+## Goal
+
+Harvest resources to fortify your base's defenses with Towers and fend off waves of encroaching enemies.
+Upgrade the town hall to expand your territory and stage a counterattack on the enemy base.
+
+## Cheat Codes
+
+F1 - Displays/hides cheat codes. Cheat codes are only usable while the list is displayed.
+F2 - Toggles all hitboxes
+F3 - Displays the number of enemies within the range of each Tower.
+F4 - Adds 10 Wood and 10 Stone to the player's inventory.
+F5 - Enables/disables Node-placing mode. While active, press E to place a new Node.
+F6 - Spawns an enemy that targets Towers.
+F7 - Spawns an enemy that targets the player.
