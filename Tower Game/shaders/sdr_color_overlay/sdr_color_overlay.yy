@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sdr_color_overlay",
+  "name":"sdr_color_overlay",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

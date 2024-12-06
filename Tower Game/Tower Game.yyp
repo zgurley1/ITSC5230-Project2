@@ -97,6 +97,7 @@
     {"id":{"name":"seq_game_win","path":"sequences/seq_game_win/seq_game_win.yy",},},
     {"id":{"name":"seq_player_attack_left","path":"sequences/seq_player_attack_left/seq_player_attack_left.yy",},},
     {"id":{"name":"seq_player_attack","path":"sequences/seq_player_attack/seq_player_attack.yy",},},
+    {"id":{"name":"sdr_color_overlay","path":"shaders/sdr_color_overlay/sdr_color_overlay.yy",},},
     {"id":{"name":"sdr_preview","path":"shaders/sdr_preview/sdr_preview.yy",},},
     {"id":{"name":"snd_archer_tower_shoot","path":"sounds/snd_archer_tower_shoot/snd_archer_tower_shoot.yy",},},
     {"id":{"name":"snd_catapult_tower_shoot","path":"sounds/snd_catapult_tower_shoot/snd_catapult_tower_shoot.yy",},},

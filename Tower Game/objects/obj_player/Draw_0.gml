@@ -8,3 +8,12 @@ if (obj_cheatcode_manager.draw_hitbox)
 
 	draw_circle(x,y, attack_range, true);
 }
+
+if(damaged_now){
+	shader_set(sdr_color_overlay);
+	shader_set_uniform_f_array(_uniColor, _color);
+	draw_self();
+	shader_reset();
+}
+
+damaged_now = false;

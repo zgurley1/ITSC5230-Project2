@@ -4,5 +4,6 @@
 
 // Take damage from the enemy object
 health -= other.damage;
+damaged_now = true
 
 instance_destroy(other);
