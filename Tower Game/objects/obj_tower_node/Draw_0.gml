@@ -9,7 +9,7 @@ if (instance_exists(obj_player))
 	
 	var text_x = x - width_offset + 5;
 	var text_y = y + height_offset + 5;
-	if (distance_to_object(obj_player) <= obj_player.attack_range)
+	if ((distance_to_object(obj_player) <= obj_player.attack_range) && (obj_player.y > y-(sprite_height/2)))
 	{
 		draw_set_halign(fa_left);
 		

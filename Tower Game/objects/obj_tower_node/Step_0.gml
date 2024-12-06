@@ -8,7 +8,7 @@ if (instance_exists(obj_player)) {
 	
 	switch (state) {
 		case TOWER_NODE_STATE.Empty:
-			if distance_to_object(obj_player) <= obj_player.attack_range {
+			if (distance_to_object(obj_player) <= obj_player.attack_range && (obj_player.y > y-(sprite_height/2))) {
 				if ((obj_inventory.wood >= obj_build_cost.archer_wood) && (obj_inventory.stone >= obj_build_cost.archer_stone))
 				{
 					afford_archer = true;
@@ -60,7 +60,7 @@ if (instance_exists(obj_player)) {
 			}
 			
 			
-			if distance_to_object(obj_player) <= obj_player.attack_range {
+			if (distance_to_object(obj_player) <= obj_player.attack_range && (obj_player.y > y-(sprite_height/2)))  {
 				if (keyboard_check_pressed(ord("1"))) 
 				{
 					instance_destroy(tower);
