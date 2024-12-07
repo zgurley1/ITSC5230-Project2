@@ -70,6 +70,7 @@
     {"id":{"name":"obj_enemy_stats","path":"objects/obj_enemy_stats/obj_enemy_stats.yy",},},
     {"id":{"name":"obj_enemy_tower","path":"objects/obj_enemy_tower/obj_enemy_tower.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_game_end_controller","path":"objects/obj_game_end_controller/obj_game_end_controller.yy",},},
     {"id":{"name":"obj_global_variables","path":"objects/obj_global_variables/obj_global_variables.yy",},},
