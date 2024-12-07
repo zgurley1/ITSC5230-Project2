@@ -17,6 +17,7 @@ if (instance_exists(obj_enemy))
 		var projectile = instance_create_layer(x,y, "Instances_Player_Enemy", ammo_type);
 		projectile.target_id = closest_enemy.id;
 		can_fire = false;
+		audio_play_sound(shot_sound,0,false);
 	}
 }
 

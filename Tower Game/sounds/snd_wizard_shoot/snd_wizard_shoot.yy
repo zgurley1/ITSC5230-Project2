@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.68,
   "name":"snd_wizard_shoot",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_wizard_shoot",
+  "soundFile":"snd_wizard_shoot.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.17,
 }

@@ -39,7 +39,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"cheats","filters":[],"listItems":[],"multiselect":false,"name":"cheats","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"draw_hitbox","filters":[],"listItems":[],"multiselect":false,"name":"draw_hitbox","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"draw_enemy_attacking_count","filters":[],"listItems":[],"multiselect":false,"name":"draw_enemy_attacking_count","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"draw_enemy_attacking_count","filters":[],"listItems":[],"multiselect":false,"name":"draw_enemy_attacking_count","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"draw_tower_node","filters":[],"listItems":[],"multiselect":false,"name":"draw_tower_node","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",

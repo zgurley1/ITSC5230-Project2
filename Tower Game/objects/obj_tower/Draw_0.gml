@@ -14,7 +14,7 @@ if (obj_cheatcode_manager.draw_hitbox)
 if (obj_cheatcode_manager.draw_enemy_attacking_count)
 {
 	var num_enemies_attacking = string(enemies_attacking);
-	draw_text(x, y + (sprite_height - 25), num_enemies_attacking);
+	// draw_text(x, y + (sprite_height - 25), num_enemies_attacking);
 }
 
 if (tower_health !=max_health)
@@ -23,5 +23,6 @@ if (tower_health !=max_health)
 }
 
 //draw_text (x, y + (sprite_height - 25), upgrade_num)
+// draw_set_halign(fa_left);
 draw_text(x, y + (sprite_height - 50), "Level: " + string(upgrade_num))
 

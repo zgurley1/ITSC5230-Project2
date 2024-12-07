@@ -70,6 +70,6 @@ function upgradeTower(tower) {
 		tower.fire_rate += 10;
 		tower.upgrade_num += 1;
 		
-		//tower.ammo_type.damage += 10;
+		// tower.ammo_type.damage += 10;
 	}
 }

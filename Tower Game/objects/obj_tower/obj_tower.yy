@@ -48,6 +48,7 @@
     {"$GMObjectProperty":"v1","%Name":"upgrade_cost_wood","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_cost_wood","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"upgrade_num","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_num","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"max_upgrade","filters":[],"listItems":[],"multiselect":false,"name":"max_upgrade","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"shot_sound","filters":[],"listItems":[],"multiselect":false,"name":"shot_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_archer_tower_shoot","path":"sounds/snd_archer_tower_shoot/snd_archer_tower_shoot.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_archer_tower_shoot","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
