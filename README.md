@@ -17,7 +17,9 @@ Producer: Tyler Bunn
 
 Use WASD to move. Click the left mouse button to swing your sword. Press E while close to wood or stone to harvest materials.
 
-Press 1/2/3 while near an open Node to build a Tower. Press 1/2/3 while near a Tower to upgrade it. Press Escape to exit the game.
+Press 1/2/3 while near an open Node to build a Tower. Press 1/2/3 while near a Tower to upgrade it.
+
+Press F11 to disable fullscreen. Press Escape to exit the game.
 
 ## Core Mechanics
 
