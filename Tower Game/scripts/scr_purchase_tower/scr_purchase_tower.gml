@@ -67,7 +67,8 @@ function upgradeTower(tower) {
 		obj_inventory.stone -= tower.upgrade_cost_stone;
 		
 		tower.max_health += 10;
-		tower.fire_rate -= 5;
+		tower.fire_rate += 10;
+		tower.upgrade_num += 1;
 		
 		//tower.ammo_type.damage += 10;
 	}

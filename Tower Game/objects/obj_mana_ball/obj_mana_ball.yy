@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_mana_ball",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"damage","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"damage","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_arrow/obj_arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"12",},
   ],
   "parent":{

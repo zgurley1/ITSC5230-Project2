@@ -13,6 +13,7 @@ if (instance_exists(obj_enemy))
 
 	if ((point_distance(x,y,closest_enemy.x,closest_enemy.y) <= attack_range) && can_fire)
 	{
+		
 		var projectile = instance_create_layer(x,y, "Instances_Player_Enemy", ammo_type);
 		projectile.target_id = closest_enemy.id;
 		can_fire = false;

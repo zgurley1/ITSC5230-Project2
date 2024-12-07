@@ -3,7 +3,6 @@
   "%Name":"obj_tower_archer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_tower_archer",
@@ -39,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_archer_tower",
-    "path":"sprites/spr_archer_tower/spr_archer_tower.yy",
+    "name":"spr_archer_tower_4_idle",
+    "path":"sprites/spr_archer_tower_4_idle/spr_archer_tower_4_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

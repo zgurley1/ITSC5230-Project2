@@ -4,6 +4,7 @@
 
 // Take damage from the enemy object
 health -= other.damage;
+audio_play_sound(snd_player_damage, 0, false)
 damaged_now = true
 
 alarm_set(2, heal_buffer);
