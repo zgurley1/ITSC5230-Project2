@@ -30,12 +30,12 @@ if (instance_exists(obj_player))
 			if (afford_wizard)
 			{
 				draw_set_color(c_white);
-				draw_text(text_x, text_y + 20, "2: Wizzard");
+				draw_text(text_x, text_y + 20, "2: Wizard");
 			}
 			else
 			{
 				draw_set_color(c_red);
-				draw_text(text_x, text_y + 20, "2: Wizzard");
+				draw_text(text_x, text_y + 20, "2: Wizard");
 			}
 			
 			if (afford_catapult)
